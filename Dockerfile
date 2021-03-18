@@ -1,7 +1,7 @@
 FROM centos:centos7 
 
 COPY conf_tmp.yml conf.yml
-COPY alist_linux_386 alist
+COPY alist_linux_amd64 alist
 COPY entrypoint.sh entrypoint.sh
 COPY dist dist
 
