@@ -11,4 +11,6 @@ docker run -d --name alist my/alist [token] [folder]
  
 #后面的俩个参数分别是TOKEN 和 要分享的目录 
 #例如：
+#https://51.ruyo.net/16754.html 感谢
+
 docker run -d --name alist my/alist 5972ed0bd4f54d3d974fa41a8231e root
